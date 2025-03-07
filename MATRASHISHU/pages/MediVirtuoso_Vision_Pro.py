@@ -28,7 +28,8 @@ st.session_state.app_key = app_key
 
 try:
     genai.configure(api_key = st.session_state.app_key)
-    model = genai.GenerativeModel('gemini-pro-vision')
+    model = genai.GenerativeModel("gemini-1.5-flash-latest")
+
 except AttributeError as e:
     st.warning(e)
 
