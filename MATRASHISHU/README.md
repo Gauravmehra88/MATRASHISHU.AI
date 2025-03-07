@@ -24,7 +24,7 @@ To get started with MediVirtuoso ChatBot, follow these steps:
 2. Navigate to the project directory:
 
     ```bash
-    cd MediVirtuoso-ChatBot-Gemini-LLM
+    cd MATRASHISHU
     ```
 
 3. Activating venv (optional) 
@@ -51,7 +51,7 @@ To get started with MediVirtuoso ChatBot, follow these steps:
 6. Run the chatbot:
 
     ```bash
-    streamlit run MediVirtuoso.py
+    streamlit run MATRASHISHU.py
     ```
 
 ## Usage
