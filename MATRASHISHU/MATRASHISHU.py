@@ -32,7 +32,8 @@ try:
 except AttributeError as e:
     st.warning("Please Configure Gemini App Key First.")
 
-model = genai.GenerativeModel("gemini-1.5-pro-latest")
+model = genai.GenerativeModel("gemini-1.5-flash-latest")
+
 chat = model.start_chat()
 
 with st.sidebar:
